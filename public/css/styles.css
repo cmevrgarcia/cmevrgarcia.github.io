@@ -1,7 +1,19 @@
 html {
   margin: 0;
   padding: 0;
+  /* width: 100vw;
+  height: 100vh; */
 }
+
+/* body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-size: 140px;
+  background-color: royalblue;
+  color: aliceblue;
+} */
 
 main {
   padding-top: 15%;
