@@ -1,0 +1,87 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding-top: 15%;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid peru;
+}
+
+th {
+  text-align: center;
+}
+
+td,
+th {
+  padding: 5px;
+}
+
+tbody tr:hover {
+  background-image: url("../images/img1.jpg");
+}
+
+tbody tr:nth-child(even) {
+  background-color: salmon;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: gold;
+}
+
+.display-test {
+  display: inline;
+}
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+@media only screen and (max-width:499px) {
+    .display-test {
+        background-color: aqua;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:999px) {
+    .display-test {
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .display-test {
+        background-color: darkblue;
+    }
+}
+
+img {
+    width: 50vw;
+    height: auto;
+}
+
+
+.form {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.name-form {
+  padding-bottom: 10px; 
+}
+
+.name-form > span {
+  color: red;
+  display: none;
+}
