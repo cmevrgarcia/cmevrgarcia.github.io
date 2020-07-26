@@ -7,7 +7,7 @@
         <meta name="keywords" content="software engeneering, HTML, CSS, Javascript, Microsoft Stack">
         <meta name ="author" content = "Carlos Garcia">
         <meta name ="viewport" content="width=device-width, initial-scale=1.0">
-        <noscript>Your browser does not suport scripting, which is fine because nobody is perfect</noscript>
+        <noscript>Your browser does not suport scripting</noscript>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" href="public/lib/font-awesome/css/all.css" />
         <script src="https://unpkg.com/feather-icons"></script>
@@ -16,28 +16,121 @@
     </head>
     <body>
         <header>
-            <h1>Carlos Garcia's Profile Page</h1>
-            <nav class="navbar navbar-default">
-                <a href="index.html" class="fa fa-home">Home</a>
-                <a href="education.html" class="fas fa-graduation-cap">Education</a>
-                <a href="career.html">Career</a>
-                <a href="projects.html">Projects</a>
+            <!-- <h1>Carlos Garcia's Profile Page</h1> -->
+            <nav class=" nav navbar-default fixed-top">
+                <div class="home">
+                    <img onclick="topFunction()" src="public/images/profile.png" class="clickable photo">
+                </div>
+                <a href="#education" class="ml-5 mr-5 mt-5 firstnav">Education</a>
+                <a href="#career" class="mr-5 mt-5">Career</a>
+                <a href="#projects" class="mr-5 mt-5">Projects</a>
             </nav>
         </header>
-        <main class="container">
-            <div class="row">
-                <div class="offset-sm-2 col-sm-4 offset-md-2 col-md-4 offset-lg-3 col-lg-3 offset-xl-2 col-xl-2">1</div>
-                <div class="col-sm-4 col-md-4 col-lg-3 col-xl-2">2</div>
-                <div class="offset-sm-2 col-sm-4 offset-md-2 col-md-4 offset-lg-0 col-lg-3 offset-xl-2 col-xl-2">3</div>
-                <div class="col-sm-4 col-md-4 col-lg-3 col-xl-2">4</div>
+        <main class="container-fluid">
+            <img src="public/images/Name.png">
+            <div id="home">
+                <div class="col-sm">
+                    <h2>About me</h2>
+                    <br>
+                    <p>By impossible of in difficulty discovered celebrated ye. 
+                        Justice joy manners boy met resolve produce. 
+                        Bed head loud next plan rent had easy add him. 
+                        As earnestly shameless elsewhere defective estimable fulfilled of. 
+                        Esteem my advice it an excuse enable. 
+                        Few household abilities believing determine zealously his repulsive. 
+                        To open draw dear be by side like. </p>
+                </div>
+            </div>
+            <div id="education">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="col-sm">
+                    <h2>Education</h2>
+                    <br>
+                    <hr>
+                    <p><a href="http://www.recodme.pt/">RecodMe</a>     (2019-Present)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C#, HTML, CSS, JS</p>
+                    <hr>
+                    <p>Msc Biotechnology @ UAlg (2016-2019)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thesis in Bioinformatics field. "Assembly and annotation of the sardine (<i>Sardina pilchardus</i>) transcriptome"</p>
+                    <hr>
+                    <p>Bsc Biotechnology @ Ualg (2012-2016)</p>
+                </div>
+            </div>
+            <div id="career">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="col-sm">
+                    <h2>Career</h2>
+                    <br>
+                    <p></p>
+                </div>
+            </div>
+            <div id="projects">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="col-sm">
+                    <h2>Projects</h2>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm">
+                            <img src="public/images/epifania.jpg" class="project">
+                        </div>
+                        <div class="col-sm pt-5 pl-0">
+                            <p>Bassist in Epifania</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm pt-5 pr-0">
+                            <p>Assembly and annotation of the sardine transcriptome</p>
+                        </div>
+                        <div class="col-sm pl-0">
+                            <img src="public/images/Sardina-pilchardus.jpg"class="project">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm pr-0">
+                            <img src="public/images/lennuyeuse.png"class="project">
+
+                        </div>
+                        <div class="col-sm pt-5 pr-0">
+                            <p>Development of a restaurant management</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm pt-5 pl-0">
+                            <p>Development of a food log</p>
+                        </div>
+                        <div class="col-sm pr-0">
+                            <img src="public/images/ShokuDexLogo.png"class="project">
+                        </div>
+                    </div>
+                </div>
             </div>
             <div>
-                <img src="public/images/kh-nobody.jpg" class="img-fluid" style="width: 25vw;">
-                <p>About me</p>
+                <br>
             </div>
         </main>
         <footer>
-
+            <div class="footre fixed-bottom">
+                <div id="footre"> 
+                    <a href="https://github.com/cmevrgarcia"><img src="public/images/github.png" class="clickable link"></i></a>
+                    <a href="https://linkedin/in/carlos-garcia-10953817b/"><img src="public/images/linkedin.png" class="clickable link"></i></a>
+                    <span class="fa fa-envelope"> c.garcia@recodme.pt</span>
+                </div>
+            </div>
         </footer>
         <script>
 
