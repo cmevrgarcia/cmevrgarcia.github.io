@@ -3,6 +3,7 @@ html {
   padding: 0;
   /* width: 100vw;
   height: 100vh; */
+  scroll-behavior: smooth;
 }
 
 /* body {
@@ -88,6 +89,10 @@ img {
   font-size: larger;
 }
 
+#home h2 {
+  font-weight: bold;
+}
+
 #education{
   margin-top: 25vw;
   margin-left: 10vw;
@@ -98,6 +103,11 @@ img {
 
 #education h2 {
   text-align: center;
+  font-weight: bold;
+}
+
+.slogo{
+  width: 1.5vw;
 }
 
 hr{
@@ -113,6 +123,10 @@ hr{
   font-size: larger;
 }
 
+#career h2 {
+  font-weight: bold;
+}
+
 #projects{
   margin-top: 25vw;
   /* margin-bottom: 25vw; */
@@ -121,6 +135,14 @@ hr{
   margin-right: 10vw;
   text-shadow: 2px 2px #00000060;
   font-size: larger;
+}
+
+#projects h2 {
+  font-weight: bold;
+}
+
+#projects h4 {
+  font-weight: bold;
 }
 
 .project{
