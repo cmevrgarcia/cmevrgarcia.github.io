@@ -125,6 +125,8 @@ hr{
 
 .project{
   width: 30vw;
+  border-radius: 5%;
+  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.6)
 }
 
 .footre{
