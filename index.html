@@ -17,13 +17,24 @@
     </head>
     <body>
         <header>
-            <nav class=" nav navbar-default fixed-top">
-                <div class="home">
-                    <img onclick="topFunction()" src="public/images/profile.png" class="clickable photo">
-                </div>
-                <a href="#education" class="ml-5 mr-5 mt-5 firstnav">Education</a>
-                <a href="#career" class="mr-5 mt-5">Career</a>
-                <a href="#projects" class="mr-5 mt-5">Projects</a>
+            <nav class="nav navbar navbar-default navbar-expand-md fixed-top">
+                <img onclick="goToTop()" src="public/images/profile.png" class="clickable photo navbar-brand">
+                <button class="navbar-toggler navButton" type="button" data-toggle="collapse" data-target=".navRes">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars text-white"></i></span>
+                </button>
+                <div class="colapse navbar-collapse justify-content-end navRes">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="#education" class="nav-link">Education</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#career" class="nav-link">Career</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                    </ul>
+                </div> 
             </nav>
         </header>
         <main class="container-fluid">
@@ -86,7 +97,7 @@
                         <div class="col-sm">
                             <a href="https://www.facebook.com/Epifania-210450762323190" target="_blank"><img src="public/images/epifania.jpg" class="project clickable link"></a>
                         </div>
-                        <div class="col-sm pt-5 pl-0">
+                        <div class="col-sm pt-2 pl-0">
                             <h4>Bassist in Epifania</h4>
                             <p>
                                 Took part in an amateur cover band with a couple of originals playing bass from 2015 to 2016.
@@ -95,7 +106,7 @@
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-sm pt-5 pr-0">
+                        <div class="col-sm pt-2 pr-0">
                             <h4>Assembly and annotation of the sardine transcriptome</h4>
                             <p>
                                 In this project, a reference transcriptome of the sardine was assembled
@@ -111,7 +122,7 @@
                         <div class="col-sm pr-0">
                             <img src="public/images/lennuyeuse.png" class="project">
                         </div>
-                        <div class="col-sm pt-5 pr-0">
+                        <div class="col-sm pt-2 pr-0">
                             <h4>Development of a restaurant management</h4>
                             <p>
                                 API / Web application with the intent of managing a restaurant.
@@ -120,7 +131,7 @@
                     </div>
                     <br>
                     <div class="row">
-                        <div class="col-sm pt-5 pl-0">
+                        <div class="col-sm pt-2 pl-0">
                             <h4>Development of a food log</h4>
                             <p>
                                 FoodLog Web Application. 
@@ -144,7 +155,7 @@
                 <div id="footre"> 
                     <a href="https://github.com/cmevrgarcia"><img src="public/images/github.png" class="clickable link"></i></a>
                     <a href="https://linkedin/in/carlos-garcia-10953817b/"><img src="public/images/linkedin.png" class="clickable link"></i></a>
-                    <span class="fa fa-envelope"> c.garcia@recodme.pt</span>
+                    <a class="fa fa-envelope" href="mailto:c.garcia@recodme.pt"> c.garcia@recodme.pt</a>
                 </div>
             </div>
         </footer>

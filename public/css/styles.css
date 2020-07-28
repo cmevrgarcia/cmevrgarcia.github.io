@@ -11,9 +11,9 @@ html {
   padding: 0;
   width: 100vw;
   height: 100vh;
-  font-size: 140px;
-  background-color: royalblue;
-  color: aliceblue;
+  font-size: ;
+  background-color: ;
+  color: ;
 } */
 
 
@@ -34,6 +34,11 @@ main {
   font-weight: bold;
   font-size: larger;
   font-family: 'Trebuchet MS';
+  height: 10vw;
+}
+
+.nav-item {
+  float: right;
 }
 
 a:link{
@@ -55,7 +60,7 @@ a:hover{
 }
 
 .photo{
-  width: 10vw;
+  width: 9vw;
   min-width: 50px;
   border-radius: 50%;
   box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.6);
@@ -107,7 +112,7 @@ img {
 }
 
 .slogo{
-  width: 1.5vw;
+  width: 16px;
 }
 
 hr{
@@ -164,7 +169,6 @@ hr{
 }
 
 .footre img{
-  width: 1.5vw;
-  height: 1.5vw;
-
+  width: 16px;
+  height: 16px;
 }
